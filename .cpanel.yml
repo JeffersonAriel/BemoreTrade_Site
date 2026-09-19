@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/adelit99/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp index.html /home1/adelit99/bemoretrade.com.br/
+    - export DEPLOYPATH=/home1/adelit99/public_html
+    - /bin/cp -f index.html $DEPLOYPATH/
+
